@@ -1,6 +1,6 @@
 import java.io.IOException;
 //Марк БРУТ
-public class Brute_force {
+public class BruteForce {
 
 
     public static void main(String[] args) throws IOException {
@@ -9,7 +9,7 @@ public class Brute_force {
         for (int i = 0; i < 32; i++) {
             Cesar.setKey(i);
             Cesar kill = new Cesar();
-            kill.kekin();
+            kill.runCrypto();
             System.out.println(Cesar.getS2());
         }
 

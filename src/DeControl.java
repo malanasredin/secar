@@ -38,19 +38,19 @@ public class DeControl { // дешифратор
          int key = scanner.nextInt();
 
 
-        char[] bukva = new char[s1.length()];
+        char[] symbol = new char[s1.length()];
 
             for (int i = 0; i < s1.length(); i++) {
                 if (Character.isLetter(s1.charAt(i)) && Character.isUpperCase(s1.charAt(i)))
-                    bukva[i] = (char) (((int) s1.charAt(i) - 'А' - key) % 32 + 'А');
+                    symbol[i] = (char) (((int) s1.charAt(i) - 'А' - key) % 32 + 'А');
                 else if (Character.isLetter(s1.charAt(i)) && Character.isLowerCase(s1.charAt(i)))
-                    bukva[i] = (char) (((int) s1.charAt(i) - 'а' - key) % 32 + 'а');
+                    symbol[i] = (char) (((int) s1.charAt(i) - 'а' - key) % 32 + 'а');
                 else
-                    bukva[i] = s1.charAt(i);
+                    symbol[i] = s1.charAt(i);
             }
 
             String s2;
-            s2 = String.copyValueOf(bukva);
+            s2 = String.copyValueOf(symbol);
 
 
             BufferedWriter writer = new BufferedWriter(new FileWriter("in.txt"));

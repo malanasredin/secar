@@ -11,7 +11,7 @@ public class Controller { // контролер цезаря
             System.out.println(Cesar.getString());
             Cesar.setKey(Integer.parseInt(scanner.next()));
             Cesar start = new Cesar();
-            start.kekin();
+            start.runCrypto();
             System.out.println("Текст успешно зашифрован и выглядит так: ");
             System.out.println(Cesar.getS2());
 

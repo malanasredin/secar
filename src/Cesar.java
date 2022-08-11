@@ -52,7 +52,7 @@ public class Cesar { // сам Цезарь
     //vsc tet
 
                 char [] bukva =  new char[s1.length()];
-                public void kekin () throws IOException {
+                public void runCrypto () throws IOException {
                for (int i = 0; i < s1.length(); i++)
                {
                     if (Character.isLetter(s1.charAt(i)) && Character.isUpperCase(s1.charAt(i)))
