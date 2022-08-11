@@ -26,7 +26,7 @@ public class Controller { // контролер
                 break;
             }if (choice == 2){
                 BruteForce vzlom = new BruteForce();
-                vzlom.BruteForce();
+                vzlom.brut();
                 break;
             }else {
                 System.out.println("Вы ввели иное значение, введите 1 или 2");
