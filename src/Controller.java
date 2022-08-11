@@ -25,8 +25,8 @@ public class Controller { // контролер
                 finish.DeCrypto();
                 break;
             }if (choice == 2){
-                BruteForce vzlom = new BruteForce();
-                vzlom.brut();
+                BruteForce breaking = new BruteForce();
+                    breaking.brut();
                 break;
             }else {
                 System.out.println("Вы ввели иное значение, введите 1 или 2");
