@@ -49,7 +49,7 @@ public class Cesar { // сам Цезарь
     }
 
     private  static int key;
-
+    //vsc tet
 
                 char [] bukva =  new char[s1.length()];
                 public void kekin () throws IOException {
