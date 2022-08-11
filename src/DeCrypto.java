@@ -3,13 +3,13 @@ import java.util.Scanner;
 import java.io.IOException;
 
 
-public class DeControl { // дешифратор
+public class DeCrypto { // дешифратор
 
 
 
 
 
-    public static void main(String[] args) throws IOException {
+    public void DeCrypto() throws IOException {
 
 
 
